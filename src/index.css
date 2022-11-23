@@ -1,10 +1,23 @@
 body {
+  background: rgb(197, 147, 147);
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+.navbar{
+  background: rgb(50, 49, 49);
+}
+
+ul{
+  display: flex;
+  list-style-type: none;
+}
+li{
+  padding: 10px;
 }
 
 code {
